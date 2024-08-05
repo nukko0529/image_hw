@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread('random_image3.png', 0)
+image = cv2.imread('photo_vertical48.jpg', 0)
 
 f = np.fft.fft2(image)
 fshift = np.fft.fftshift(f)
